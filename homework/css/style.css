@@ -1,4 +1,8 @@
 body {
+  background: #F6F6F6;
+  color: #05080C;
+  padding-left: 35px;
+  padding-top: 25px;
 
 }
 
@@ -18,7 +22,11 @@ body {
 }
 
 .commonstyles h2 {
+  list-style-type: underline;
+  font-family: arial;
+  text-decoration: underline;
 }
+
 
 .commonstyles h3 {
   margin-top: 42px;
@@ -31,6 +39,7 @@ body {
 .commonstyles p {
   margin-top: 0;
   margin-bottom: 27px;
+  font-family: Georgia;
 }
 
 .commonstyles ul {
@@ -71,18 +80,22 @@ body {
 }
 
 .toc .toclevel-1 {
+font-size: 16px;
+list-style: none
 
 }
 
 .toc .toclevel-1 > a {
-
+color: navy;
 }
 
 .toc .toclevel-2 {
-
+font-size: 14px;
+list-style: none;
 }
 
 .toc .toclevel-2 > a {
+  color: #3344aa;
 
 }
 
