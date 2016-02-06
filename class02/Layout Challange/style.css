@@ -1,0 +1,43 @@
+.placeholder {
+	background: gray;
+	margin: 10px;
+	height: 250px;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.pageHeader {
+	width: 100%;
+	background: white;
+	float: left;
+}
+
+.LeftSideBar {
+	width: 20%;
+	background: white;
+	float: left;
+}
+
+.main {
+	width: 50%;
+	background: white;
+	float: left;
+}
+
+.main2 {
+	width: 50%;
+	background: white;
+	float: left;
+}
+
+.RightSideBar {
+	width: 20%;
+	background: white;
+	float: left;
+}
+
+.pageFooter {
+	width: 100%;
+	background: white;
+	float: left;
+}

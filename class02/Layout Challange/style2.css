@@ -1,0 +1,66 @@
+.placeholder {
+	background: rgba(255, 255, 255, 0.7);
+	margin: 10px;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.MainPageHeader .placeholder {
+	margin-right: 10px;
+	padding-right: 10px;
+	width: 90px
+}
+
+.pageHeader .placeholder {
+	padding: 5px;
+	margin: 25px;
+	margin-right: 2px;
+	margin-left: 2px;
+	
+}
+
+.main .placeholder {
+	height: 120px
+}
+
+.SideBar .placeholder {
+	height: 90px
+}
+
+.MainPageHeader {
+	width: 30%;
+	background: gray;
+	float: left;
+}
+
+
+.pageHeader {
+	background: gray;
+	float: left;
+	width: 17.5%;
+}
+
+
+.main {
+	width: 100%;
+	background: gray;
+	float: left;
+	height: 180px
+}
+
+
+
+.SideBar {
+	width: 33.3333%;
+	background: gray;
+	float: left;
+	height: 150px;
+
+}
+
+
+.pageFooter {
+	width: 100%;
+	background: gray;
+	float: left;
+}
