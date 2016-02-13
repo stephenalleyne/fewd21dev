@@ -1,8 +1,8 @@
 /*
 Project Name: Blank Template
 Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Author: Stephen Alleyne
+Developer @GA in DC
 */
 
 
@@ -61,7 +61,7 @@ body {
 
 /* Center the container */
 .container {
-  width: 100%;
+  width: 80%;
   margin: auto;
   height: 500px;
 
