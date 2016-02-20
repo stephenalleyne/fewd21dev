@@ -31,18 +31,25 @@ a {
 
 .menu_logo {
 	float: left;
-	padding-left: 100px;
+	padding-left: ;
+	color: white;
 }
 
 .menu_nav {
 	list-style: none;
-	float: right;
+	float: left;
+	padding-right: 100px;
 }
 
 .menu_nav li {
 	display: inline-block;
 	padding-left: 30px;
-	color: #f9e42e;
+	
+}
+
+.menu_nav a {
+	 color: #f9e42e;	
+	 font-size: 24px;
 }
 
 .body {
@@ -87,10 +94,10 @@ a {
 }
 
 .side_nav li {
-	text-align: left;
 	font-size: 24px;
 	font-weight: 400;
 	color: #033048;
+	text-indent: none;
 }
 
 .click_more {
@@ -106,19 +113,20 @@ a {
 	float: left;
 	background: #f9e42e;
 	margin-top: 50px;
-	padding: 60px;
+	padding: 30px;
 }
 
 .button {
 	color: white;
 	background: #033048;
 	padding: 12px;
-	font-weight: 600;
+	font-weight: 800;
 	text-align: center;
 	margin: 550;
-	
-
-
+	border-radius: 5px;
+	width: 280px;
+	display: block;
+	margin: auto;
 
 }
 
@@ -129,6 +137,8 @@ a {
 	text-align: center;
 	margin: 0;
 	float: left;
+	padding-top: 65px;
+	padding-bottom: 45px;
 }
 
 .page_end .foot_logo {
