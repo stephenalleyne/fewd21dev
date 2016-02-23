@@ -6,8 +6,9 @@
 }
 
 body {
-	font-family: 'open sans', helvetica;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	color: gray;
+	margin: 0;
 }
 
 a {
@@ -27,23 +28,26 @@ a {
 .menu {
 	background: #033048;
 	width: 100%;
+	overflow: hidden;
 }
 
 .menu_logo {
 	float: left;
-	padding-left: ;
 	color: white;
+	font-weight: 800;
+	font-size: 48px;
 }
 
 .menu_nav {
 	list-style: none;
-	float: left;
-	padding-right: 100px;
+	float: right;
+	margin: 32.12px;
 }
 
 .menu_nav li {
 	display: inline-block;
-	padding-left: 30px;
+	padding-left: 40px;
+	font-weight: 300;
 	
 }
 
@@ -52,16 +56,20 @@ a {
 	 font-size: 24px;
 }
 
+.container {
+	background-color: #f0efef;
+}
+
 .body {
-	padding-left: 230px;
-	padding-right: 230px;
-	padding-top: 80px;
-	background: #033048;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 .main {
 	float: left;
 	width: 70%;
+	padding-bottom: 80px;
+	margin-top: 30px;
 }
 
 .main_title {
@@ -78,33 +86,51 @@ a {
 
 .main_content {
 	font-size: 24px;
+	font-weight: 300;
 }
 
 .sidebar {
 	float: right;
 	width: 25%;
+	margin-top: 30px;
 }
 
 .sidebar_title {
 	color: #033048;
+	font-weight: 800;
+	font-size: 32px;
 }
 
 .side_nav {
 	list-style: none;
-}
+	padding: 0;
+	font-size: 24px;
+	}
 
 .side_nav li {
 	font-size: 24px;
 	font-weight: 400;
+	
+}
+
+.side_nav li a {
 	color: #033048;
-	text-indent: none;
+
 }
 
 .click_more {
 	text-align: right;
 	font-family: 'open sans', helvetica;
-	font-weight: 400;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.click_more a {
 	color: #033048;
+}
+
+.click_more .learn_more {
+	text-align: left;
 }
 
 .button_box {
@@ -112,7 +138,7 @@ a {
 	clear: both;
 	float: left;
 	background: #f9e42e;
-	margin-top: 50px;
+	margin-top: 0;
 	padding: 30px;
 }
 
