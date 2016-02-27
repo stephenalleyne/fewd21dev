@@ -115,6 +115,7 @@ a {
 
 .side_nav li a {
 	color: #033048;
+	font-weight: 300;
 
 }
 
@@ -167,6 +168,7 @@ a {
 	padding-bottom: 45px;
 }
 
-.page_end .foot_logo {
+.foot_logo {
 	color: #f9e42e;
+	margin-bottom: 68px;
 }
